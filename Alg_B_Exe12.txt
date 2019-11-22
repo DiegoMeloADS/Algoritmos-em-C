@@ -1,0 +1,21 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+main(void)
+{
+	float saldo,reajuste,conta,valor; 
+	
+	printf("Por favor digite o saldo presente em sua conta: ");
+	scanf("%f",&saldo);
+	
+	reajuste=2;
+	conta=saldo*reajuste;
+	conta/=100;
+	valor=saldo+conta;
+	
+	printf("Seu saldo atual e de: R$ %.2f Reais \n",valor);
+	
+	system("pause");
+	return 0;
+}

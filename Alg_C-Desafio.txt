@@ -1,0 +1,36 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+#include <locale.h>
+main()
+{
+	setlocale(LC_ALL,"portuguese");
+	
+	int n1,n2,n3,n4,n5,x,y;
+	
+	printf("Programa de Numeros Palíndromos até 5 Digitos \n");
+	
+	printf("Digite o 1° algarismo dos 5 digitos: ");
+		scanf("%d",&n1);
+	printf("Digite o 2° algarismo dos 5 digitos: ");
+		scanf("%d",&n2);
+	printf("Digite o 3° algarismo dos 5 digitos: ");
+		scanf("%d",&n3);
+	printf("Digite o 4° algarismo dos 5 digitos: ");
+		scanf("%d",&n4);
+	printf("Digite o 5° algarismo dos 5 digitos: ");
+		scanf("%d",&n5);
+		
+		x=n1+n2+n3;
+		y=n5+n4+n3;
+		
+		
+		if(x==y){
+			printf("Seu numero %d%d%d%d%d é palindromo\n",n1,n2,n3,n4,n5);
+		}else{
+			printf("Seu número não é palíndromo\n");
+			}
+			
+			system("pause");
+			return 0;
+}

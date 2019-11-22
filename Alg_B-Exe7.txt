@@ -1,0 +1,20 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+ main (void)
+{
+	int a,b,valor;
+	
+	printf("Digite o valor que ira ser subtraido: ");
+	scanf("%d",&a);
+	printf("Digite o valor que ira subtrair seu numero: ");
+	scanf("%d",&b);
+
+	valor= a-b ;
+		
+	printf("\nO valor dessa divisao sera: %d - %d = %d \n",a,b,valor);
+	
+	system("pause");
+	return 0;
+}

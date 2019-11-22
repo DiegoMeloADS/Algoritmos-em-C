@@ -1,0 +1,43 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+main(void)
+{
+	float a,b,c,nft1,nft2,nft3;
+	
+	nft1=a>b+c;
+	nft2=b>a+c;
+	nft3=c>a+b;
+	
+	printf("digite o primeiro numero: \n");
+	scanf("%f", &a);
+	printf("digite o segundo numero: \n");
+	scanf("%f",&b);
+	printf("digite o segundo numero: \n");
+	scanf("%f",&c);
+	
+		if((a >b+c || b >a+c || c>a+b)){
+		printf("nao forma um triangulo \n ");
+	}	
+	else{
+	
+	        if((a==b && a!=c && b!=c || c==b && c!=a && b!=a || c==a && c!=b && a!=b )){
+		    printf("forma um triangulo que e um triangulo isosceles \n ");	
+	}
+		else
+			if(( a!=b && b!=c && c!=a)){
+    		printf(" forma um triangulo que e um triangulo escaleno \n");
+ }
+		else
+			if(a==b && b==c && c==a){
+			printf("forma um triangulo que e um triangulo equilatero \n");}
+		}
+		
+	
+	
+			
+		
+	system("pause");
+	return 0;
+}

@@ -1,0 +1,31 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <locale.h>
+
+main()
+{
+	int sal,rea1,rea2,x,y;
+	
+	setlocale(LC_ALL,"portuguese");
+	printf("Programa de reajuste de Salario\n");
+	printf("Digite seu salário por favor : ");
+	scanf("%d",&sal);
+	
+	rea1=(sal*50)/100;
+	x=rea1+sal; 
+	
+	rea2=(sal*30)/100;
+	y=rea2+sal;
+	
+	if(sal<300 || sal==300){
+
+		printf("\nO Reajuste do seu salário sera de 50%, após o reajuste, seu salário sera de: %d\n",x);
+	} 
+	
+	if(sal>300){
+		
+		printf("\nO reajuste no seu salário sera de 30%,após o reajuste,seu salário sera de: %d\n",y);
+	}
+	system("pause");
+	return 0;
+}

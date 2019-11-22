@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+	int numero;
+	printf("digite um numero:");
+	scanf("%d", &numero);
+    /* para digitar o numero*/
+
+	int antecessor = numero - 1 ;
+	int sucessor = numero + 1 ;	
+	/*variaveis locais para calcular o numero antecesssor e sucessor*/
+	
+	printf("\n o seu sucessor e: %d",sucessor);
+	printf("\n o seu antecessor e: %d",antecessor);
+	/* para mostrar o sucessor e antecessor */
+
+	system("pause");
+	return 0 ;
+	}

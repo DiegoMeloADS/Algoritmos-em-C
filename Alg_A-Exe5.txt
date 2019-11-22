@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(void)
+{ 
+	
+	int inteiro1;
+	
+	/*variaveis locais*/
+	
+	printf("digite o primeiro numero ");
+	scanf("%d" ,&inteiro1);	
+	
+	printf("os numero digitados foram %d",inteiro1);
+	
+	system("pause");
+	return 0;
+}

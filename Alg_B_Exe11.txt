@@ -1,0 +1,19 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h> 
+
+main(void)
+{
+	float quadrado,numero;
+	
+	printf("Programa do Numero elevado ao Quadrado \n");
+	printf("Por favor Digite um numero: ");
+	scanf("%f",&numero);
+	
+    quadrado=pow((numero),2);
+    
+    printf("O seu numero elevado ao quadrado e: %.2f \n",quadrado);
+    
+    system("pause");
+    return 0;
+}

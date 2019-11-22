@@ -1,0 +1,22 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+main(void)
+{
+	float a,b,c,media;
+	
+	printf("Digite o primeiro valor: ");
+	scanf("%f",&a);
+	printf("Digite o Segundo valor: ");
+	scanf("%f",&b);
+	printf("Digite o Terceiro valor: ");
+	scanf("%f",&c);
+	
+	media=(a+b+c)/3;
+
+	printf("\nA media entre esses tres valores digitados sao de: %.2f \n",media);
+	
+	system("pause");
+	return 0;
+}

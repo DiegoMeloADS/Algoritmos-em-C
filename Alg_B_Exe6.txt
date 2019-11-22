@@ -1,0 +1,25 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+main(void)
+{
+	int telefone;
+	char nome[100],endereco[100];
+	
+	printf("Digite seu Nome:");
+	scanf("%s",nome);
+	
+	printf("Digite seu Endereco:");
+	scanf("%s",endereco);
+	
+	printf("Digite seu Telefone:");
+	scanf("%d", &telefone);
+	printf("\n ---------------------------------------------------");
+	printf("\n Seus Dados");
+	printf("\n ----------------------------------------------------");
+	printf("\n Nome: %s",nome);
+	printf("\n Endereco: %s",endereco);
+	printf("\n Telefone: %d \n",telefone);
+	system("pause");
+	return 0;
+}

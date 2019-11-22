@@ -1,0 +1,27 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+main(void)
+{
+	float pinta,lataq,latal,latap,litro,area,raio,altura;
+	
+	printf("digite o valor do raio: ");
+	scanf("%f", &raio);
+	printf("digite o valor da altura: ");
+	scanf("%f", &altura);
+    
+	area=(3,14*raio*raio)+(2*3,14*raio*altura);
+	latal=(area/3);
+	lataq=latal/5;
+	printf("a quantidade de latas que serao utilizadas serao: \n %.2f \n ",lataq);
+	latap=lataq*20;
+	printf("o preco que sera necessario e: \n %.2f \n ",latap);
+	
+	system("pause");
+	return 0;
+	
+	
+	
+	
+}

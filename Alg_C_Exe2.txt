@@ -1,0 +1,59 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+int main ()
+{
+
+	int n1,n2,n3,n4,soma,soma2,soma3,soma4;
+	
+	printf("digite quatro numeros \n");
+	printf("digite o numero 1: ");
+	scanf("%d",&n1);
+	printf("digite o numero 2: ");
+	scanf("%d",&n2);
+	printf("digite o numero 3: ");
+	scanf("%d",&n3);
+	printf("digite o numero 4: ");
+	scanf("%d",&n4);
+	
+ soma=n2+n3+n4;
+ soma2=n1+n3+n4;
+ soma3=n1+n2+n4;
+ soma4=n1+n2+n3;
+ 
+ if(n1==n2 && n1==n3 && n1==n4 || n2==n1 && n2==n3 && n2==n4 || n3==n1 && n3==n2 && n3==n4 || n4==n1 && n4==n2 && n4==n3){
+  printf("existe numeros iguais portanto nao foi possivel executar a operação");
+  }
+  		if(n1>n2 && n1>n3 && n1>n4){
+ 				printf("a soma dos tres menores numeros sao: %d\n",soma);
+ 				}
+
+				if(n2>n1 && n2>n3 && n2>n4){
+				printf("a soma dos tres menores numeros sao: %d\n",soma2);
+				}
+			
+				if(n3>n1 && n3>n2 && n3>n4){
+					printf("a soma desses tres menores numeros sao: %d\n",soma3);
+				}
+			
+				if(n4>n1 && n4>n2 && n4>n3){
+				printf("a soma dos tres menores desses numeros sao: %d\n",soma4);
+				}
+		
+		
+	system("pause");
+	    return 0 ;	
+	
+}
+
+
+
+
+
+
+		
+		
+		
+	
+ 

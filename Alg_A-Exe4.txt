@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void)
+{ 
+
+	int a=5;
+	int b=8;
+	int c=12;
+	int media=a+b+c/3;
+	printf("a media aritmetica dos valores 5,8 e 12 sao: %d",media);
+	system("pause");
+	return 0;
+}

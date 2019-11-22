@@ -1,0 +1,32 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+main (void)
+{
+	float a,b,adicao,subtracao,multiplicacao,divisao;
+	printf("Programa das quatro operacoes matematicas");
+	
+  
+	printf("\nDigite o primeiro numero: ");
+	scanf("%f",&a);
+	printf("Digite o segundo numero: ");
+	scanf("%f",&b);
+	
+	adicao=a+b;
+	subtracao=a-b;
+	multiplicacao=a*b;
+	divisao=a/b;
+	
+	printf("\n=================================================================");
+	printf("\n a adicao de %.2f e %.2f e : %.2f \n",a,b,adicao);
+	printf("=================================================================");
+	printf("\n a subtracao de %.2f e %.2f e de : %.2f \n",a,b,subtracao);
+	printf("=================================================================");
+	printf("\n a multiplicacao de %.2f e %.2f e de: %.2f \n",a,b,multiplicacao);
+	printf("=================================================================");
+	printf("\n a divisao de %.2f e %.2f e de: %.2f \n",a,b,divisao);
+	
+	system ("pause");
+	return 0;
+}

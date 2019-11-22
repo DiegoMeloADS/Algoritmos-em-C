@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+
+	/* digitar o nome */
+	char nome[100];
+	printf("digite seu nome: \n");
+	scanf("%s", &nome);
+	printf("seu nome e: %s\n ",nome);
+	
+	/* digitar a idade*/
+	/* int idade é uma variavel local*/
+	int idade;
+	printf("\n insira sua idade: \n");
+	scanf("%d", &idade);	
+	printf("sua idade e: %d",idade);
+	system("pause");
+	return (0) ;  
+}

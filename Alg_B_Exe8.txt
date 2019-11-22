@@ -1,0 +1,19 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+main(void)
+{
+	float a,quociente;
+
+	
+	printf("Digite um Numero : ");
+	scanf("%f",&a);
+	
+	quociente= a/4;
+		
+	printf("\n 1/4 Desse numero e: %.2f \n ",quociente);
+	
+	system("pause");
+	return 0;
+}

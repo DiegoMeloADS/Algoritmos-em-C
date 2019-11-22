@@ -1,0 +1,29 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+  	int n1,n2,n3,soma,media,produto;
+  	printf("Programa de Soma Media e Produto\n");
+	printf("digite 3 numeros \n");
+	printf("digite o 1 Numero: ");
+	scanf("%d",&n1);
+	printf("Digite o 2 Numero: ");
+	scanf("%d",&n2);
+	printf("Digite o 3 Numero: ");
+	scanf("%d",&n3);
+	
+	soma=n1+n2+n3;
+	media=soma/3;
+	produto=n1*n2*n3;
+	
+	printf("\na soma de %d + %d + %d = %d \n",n1,n2,n3,soma);
+	printf("a media de %d+%d+%d/3 = %d \n",n1,n2,n3,media);
+	printf("o produto de %d x %d x %d = %d \n",n1,n2,n3,produto);
+	
+	system("pause");
+	return 0;
+	
+	
+}

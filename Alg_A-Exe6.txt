@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(void)
+{ 
+	
+	int inteiro1;
+	int inteiro2;
+
+	
+	printf("digite o primeiro numero ");
+	scanf("%d" ,&inteiro1);	
+	
+	
+	printf("digite o segundo numero ");
+	scanf("%d", &inteiro2);
+
+	
+	printf("os numero digitados foram %d",inteiro1);
+	printf(" e %d",inteiro2);
+	
+	system("pause");
+	return 0;
+}

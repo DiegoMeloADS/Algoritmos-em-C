@@ -1,0 +1,26 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+main(void)
+{
+	float altura,base,area,perimetro;
+	
+	printf("Programa de perimetro e area do retangulo \n");
+	
+	printf("Digite a Altura: ");
+	scanf("%f",&altura);
+	printf("Digite a Base: ");
+	scanf("%f",&base);
+	
+	perimetro=pow((altura),2)+pow((base),2);
+	
+	printf("\nO perimetro do retangulo e de : %.2f",perimetro);
+	
+	area=base*altura;
+	
+	printf("\nA area e de : %.2f \n \n",area);
+	
+	system("pause");
+	return 0;
+}

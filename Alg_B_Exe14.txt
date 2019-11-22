@@ -1,0 +1,29 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+main (void)
+{
+	float produto,desconto,conta,valor,porcentagem;
+	
+	printf("Programa de Desconto \n");
+	
+	printf("Digite o Valor do Produto: ");
+	scanf("%f",&produto);
+	
+	printf("Digite o Desconto: "); 
+	scanf("%f",&desconto);
+	
+	conta=produto*desconto;
+	porcentagem=conta/100;
+	valor=produto-porcentagem;
+	printf("======================================================= \n");
+	printf("O Desconto foi de: %.2f \n",desconto);
+    printf("=======================================================");  
+	printf("\nO valor de desconto no produto sera de: %.2f \n",porcentagem);
+    printf("=======================================================");
+	printf("\nSendo assim o preco sera de R$%.2f \n",valor);
+	
+	system("pause");
+	return 0;
+}
